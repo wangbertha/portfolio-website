@@ -1,0 +1,8 @@
+.socials-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.socials-list img {
+    height: 2rem;
+}
