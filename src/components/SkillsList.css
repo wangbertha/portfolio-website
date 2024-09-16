@@ -1,0 +1,18 @@
+.skills-list {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.high {
+    background-color: #8bbdff;
+}
+
+.medium {
+    background-color: #c4ddff;
+}
