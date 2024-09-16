@@ -1,4 +1,5 @@
 import SkillsList from "../components/SkillsList";
+import SocialsList from "../components/SocialsList";
 import "./Home.css";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     "Python",
     "Java",
   ];
+
   return (
     <section className="home-page">
       <h1>
@@ -38,6 +40,7 @@ const Home = () => {
         <SkillsList proficiency="high" list={skillsHigh} />
         <SkillsList proficiency="medium" list={skillsMedium} />
       </div>
+      <SocialsList />
     </section>
   );
 };
