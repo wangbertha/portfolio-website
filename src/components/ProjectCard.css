@@ -1,0 +1,49 @@
+.project-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-image {
+    margin: 1rem 0;
+    max-height: 15rem;
+    object-fit: cover;
+}
+
+.project-year {
+    font-style: italic;
+}
+
+.project-links {
+    display: flex;
+}
+
+.project-links a {
+    width: 3rem;
+}
+
+.project-links img {
+    height: 2rem;
+}
+
+.project-card li {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 720px) {
+    .project-card {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .project-image {
+        margin: 0;
+    }
+}
