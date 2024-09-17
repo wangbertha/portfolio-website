@@ -7,6 +7,14 @@ header {
     color: #fff;
 }
 
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    color: #c4ddff;
+}
+
 header .accent-wrapper {
     display: flex;
     flex-direction: column;

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -5,7 +6,9 @@ const Header = () => {
     <header>
       <div className="accent-wrapper">
         <div className="nav-hamburger-spacer">
-          <p className="page-title">Bertha Wang</p>
+          <p className="page-title">
+            <Link to="">Bertha Wang</Link>
+          </p>
           <svg
             className="nav-hamburger-icon"
             viewBox="0 0 100 80"
@@ -18,10 +21,18 @@ const Header = () => {
           </svg>
         </div>
         <menu>
-          <li>Projects</li>
-          <li>Past Experience</li>
-          <li>Extracurricular</li>
-          <li>Contacts</li>
+          <li>
+            <Link to="projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="past-experience">Past Experience</Link>
+          </li>
+          <li>
+            <Link to="extracurricular">Extracurricular</Link>
+          </li>
+          <li>
+            <Link to="contact">Contacts</Link>
+          </li>
         </menu>
       </div>
     </header>
