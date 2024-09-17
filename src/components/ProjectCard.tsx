@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         <SkillsList proficiency="medium" list={project.skillsMed} />
         <menu className="project-links">
           {project.links.map((link) => (
-            <a href={link.link}>
+            <a href={link.link} target="_blank" rel="noreferrer noopener">
               <img src={link.icon} alt="" />
             </a>
           ))}
