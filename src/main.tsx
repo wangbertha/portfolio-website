@@ -8,11 +8,13 @@ import Projects from "./pages/Projects";
 import PastExperience from "./pages/PastExperience";
 import Extracurricular from "./pages/Extracurricular";
 import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "",
