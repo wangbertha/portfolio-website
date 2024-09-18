@@ -1,6 +1,17 @@
+import React from "react";
 import "./ExtracurricularCard.css";
 
-const ExtracurricularCard = ({ extracurricular }) => {
+interface ExtracurricularCardProps {
+  extracurricular: {
+    title: string;
+    image: string;
+    link?: string;
+  };
+}
+
+const ExtracurricularCard: React.FC<ExtracurricularCardProps> = ({
+  extracurricular,
+}) => {
   return (
     <section className="extracurricular-card">
       {extracurricular.link ? (

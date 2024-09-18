@@ -1,8 +1,25 @@
-import PropTypes from "prop-types";
-import "./ProjectCard.css";
 import SkillsList from "./SkillsList";
+import "./ProjectCard.css";
+import React from "react";
 
-const ProjectCard = ({ project }) => {
+interface ProjectCardProps {
+  project: {
+    image: string;
+    title: string;
+    year: number;
+    description: string;
+    links: LinksProps[];
+    skillsHigh: string[];
+    skillsMed: string[];
+  };
+}
+
+interface LinksProps {
+  icon: string;
+  link: string;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <article className="project-card">
       <img className="project-image" src={project.image} alt="" />
@@ -22,10 +39,6 @@ const ProjectCard = ({ project }) => {
       </div>
     </article>
   );
-};
-
-ProjectCard.propTypes = {
-  project: PropTypes.object,
 };
 
 export default ProjectCard;

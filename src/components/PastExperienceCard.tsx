@@ -1,6 +1,18 @@
+import React from "react";
 import "./PastExperienceCard.css";
 
-const PastExperienceCard = ({ experience }) => {
+interface PastExperienceCardProps {
+  experience: {
+    role: string;
+    company: string;
+    dates: string;
+    bullets: string[];
+  };
+}
+
+const PastExperienceCard: React.FC<PastExperienceCardProps> = ({
+  experience,
+}) => {
   return (
     <section className="experience-card">
       <div className="experience-header">
