@@ -39,7 +39,7 @@ const projects = [
     skillsMed: [],
   },
   {
-    image: "/src/assets/project-ghost-buses.png",
+    image: "/src/assets/project-portfolio-website.png",
     title: "Portfolio Website",
     year: 2024,
     description:
