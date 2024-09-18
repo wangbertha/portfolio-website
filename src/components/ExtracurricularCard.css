@@ -23,6 +23,7 @@
 
 .extracurricular-image:hover {
     opacity: 100%;
+    transition: 0.5s ease;
 }
 
 .extracurricular-image:hover ~ .extracurricular-title,
