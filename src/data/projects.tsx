@@ -31,7 +31,7 @@ const projects = [
         link: "https://github.com/chihacknight/ghost-buses-frontend",
       },
       {
-        icon: "/src/assets/github-mark.svg",
+        icon: "/src/assets/ghost-bus-icon.png",
         link: "https://ghostbuses.com/",
       },
     ],
