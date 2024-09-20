@@ -1,6 +1,14 @@
 import "./ExtracurricularCard.css";
 
-const ExtracurricularCard = ({ extracurricular }) => {
+interface ExtracurricularCardProps {
+  extracurricular: {
+    title: string;
+    image: string;
+    link?: string;
+  };
+}
+
+const ExtracurricularCard = ({ extracurricular }: ExtracurricularCardProps) => {
   return (
     <section className="extracurricular-card">
       {extracurricular.link ? (

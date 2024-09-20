@@ -1,6 +1,15 @@
 import "./PastExperienceCard.css";
 
-const PastExperienceCard = ({ experience }) => {
+interface PastExperienceCardProps {
+  experience: {
+    role: string;
+    company: string;
+    dates: string;
+    bullets: string[];
+  };
+}
+
+const PastExperienceCard = ({ experience }: PastExperienceCardProps) => {
   return (
     <section className="experience-card">
       <div className="experience-header">
