@@ -14,7 +14,7 @@ const Home = () => {
   ];
 
   return (
-    <section className="home-page">
+    <section className="page home-page">
       <h1>
         Software Engineer / <br /> Web Developer
       </h1>

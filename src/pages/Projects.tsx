@@ -3,11 +3,11 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div>
+    <main className="page projects-page">
       {projects.map((project) => (
         <ProjectCard project={project} />
       ))}
-    </div>
+    </main>
   );
 };
 

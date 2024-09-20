@@ -1,10 +1,6 @@
 .extracurricular-card {
-    margin: auto;
-    height: 15rem;
-    width: 20rem;
     position: relative;
     text-align: center;
-    box-shadow: 5px 5px #878787;
 }
 
 .extracurricular-title {
@@ -19,10 +15,12 @@
     width: 20rem;
     object-fit: cover;
     opacity: 50%;
+    box-shadow: 5px 5px #878787;
 }
 
 .extracurricular-image:hover {
     opacity: 100%;
+    transition: 0.5s ease;
 }
 
 .extracurricular-image:hover ~ .extracurricular-title,

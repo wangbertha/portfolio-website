@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <main className="contact-page">
+    <main className="page contact-page">
       <h1>Get in touch!</h1>
       <SocialsList />
       <img className="accent-img" src={backgroundPic} alt="" />

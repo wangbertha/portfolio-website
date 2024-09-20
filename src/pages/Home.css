@@ -1,12 +1,8 @@
-section.home-page {
-    flex: 1;
+.home-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem;
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 .skills-list-wrapper {

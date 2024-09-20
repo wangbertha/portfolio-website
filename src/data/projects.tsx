@@ -31,7 +31,7 @@ const projects = [
         link: "https://github.com/chihacknight/ghost-buses-frontend",
       },
       {
-        icon: "/src/assets/github-mark.svg",
+        icon: "/src/assets/ghost-bus-icon.png",
         link: "https://ghostbuses.com/",
       },
     ],
@@ -39,7 +39,7 @@ const projects = [
     skillsMed: [],
   },
   {
-    image: "/src/assets/project-ghost-buses.png",
+    image: "/src/assets/project-portfolio-website.png",
     title: "Portfolio Website",
     year: 2024,
     description:
