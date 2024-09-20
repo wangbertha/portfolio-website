@@ -18,7 +18,7 @@ const PastExperience = () => {
   ];
 
   return (
-    <main className="past-experience-page">
+    <main className="page past-experience-page">
       <h1>Past Experience</h1>
       <p>
         Prior to starting my career in software engineering, I gained skills and

@@ -4,7 +4,7 @@ import "./Extracurricular.css";
 
 const Extracurricular = () => {
   return (
-    <main className="extracurricular-page">
+    <main className="page extracurricular-page">
       <h1>Extracurricular</h1>
       {extracurriculars.map((extracurricular) => (
         <ExtracurricularCard extracurricular={extracurricular} />
