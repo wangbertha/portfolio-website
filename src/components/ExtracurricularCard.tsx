@@ -1,4 +1,3 @@
-import React from "react";
 import "./ExtracurricularCard.css";
 
 interface ExtracurricularCardProps {
@@ -9,9 +8,7 @@ interface ExtracurricularCardProps {
   };
 }
 
-const ExtracurricularCard: React.FC<ExtracurricularCardProps> = ({
-  extracurricular,
-}) => {
+const ExtracurricularCard = ({ extracurricular }: ExtracurricularCardProps) => {
   return (
     <section className="extracurricular-card">
       {extracurricular.link ? (

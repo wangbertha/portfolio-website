@@ -1,6 +1,5 @@
 import SkillsList from "./SkillsList";
 import "./ProjectCard.css";
-import React from "react";
 
 interface ProjectCardProps {
   project: {
@@ -19,7 +18,7 @@ interface LinksProps {
   link: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <article className="project-card">
       <img className="project-image" src={project.image} alt="" />

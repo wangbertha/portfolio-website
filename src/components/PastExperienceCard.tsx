@@ -1,4 +1,3 @@
-import React from "react";
 import "./PastExperienceCard.css";
 
 interface PastExperienceCardProps {
@@ -10,9 +9,7 @@ interface PastExperienceCardProps {
   };
 }
 
-const PastExperienceCard: React.FC<PastExperienceCardProps> = ({
-  experience,
-}) => {
+const PastExperienceCard = ({ experience }: PastExperienceCardProps) => {
   return (
     <section className="experience-card">
       <div className="experience-header">

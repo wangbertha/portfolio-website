@@ -1,4 +1,3 @@
-import React from "react";
 import "./SkillsList.css";
 
 interface SkillsListProps {
@@ -6,7 +5,7 @@ interface SkillsListProps {
   list: string[];
 }
 
-const SkillsList: React.FC<SkillsListProps> = ({ proficiency, list }) => {
+const SkillsList = ({ proficiency, list }: SkillsListProps) => {
   return (
     <ul className="skills-list">
       {list.map((skill) => (
