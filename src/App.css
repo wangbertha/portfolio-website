@@ -19,6 +19,8 @@ footer,
 
 .page {
     flex: 1;
+    padding: 1rem;
+    max-width: 1280px;
 }
 
 li {
