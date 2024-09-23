@@ -32,9 +32,15 @@ const Home = () => {
         Over the past half year, I dove into my passion for coding and
         technology. I started my journey first through self-learning and am
         currently attending{" "}
-        <a href="">Fullstack Academy's web development immersive program</a>. My
-        work includes developing web apps, and I've had the opportunity to work
-        with nonprofits and contribute to open source projects.
+        <a
+          href="https://www.fullstackacademy.com/programs/coding-bootcamp"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Fullstack Academy's web development immersive program
+        </a>
+        . My work includes developing web apps, and I've had the opportunity to
+        work with nonprofits and contribute to open source projects.
       </p>
       <div className="skills-list-wrapper">
         <SkillsList proficiency="high" list={skillsHigh} />
