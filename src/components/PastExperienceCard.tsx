@@ -18,8 +18,8 @@ const PastExperienceCard = ({ experience }: PastExperienceCardProps) => {
         <p className="experience-dates">{experience.dates}</p>
       </div>
       <ul className="experience-bullets">
-        {experience.bullets.map((bullet) => (
-          <li>{bullet}</li>
+        {experience.bullets.map((bullet, index) => (
+          <li key={index}>{bullet}</li>
         ))}
       </ul>
     </section>

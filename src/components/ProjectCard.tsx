@@ -29,8 +29,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <SkillsList proficiency="high" list={project.skillsHigh} />
         <SkillsList proficiency="medium" list={project.skillsMed} />
         <menu className="project-links">
-          {project.links.map((link) => (
-            <a href={link.link} target="_blank" rel="noreferrer noopener">
+          {project.links.map((link, index) => (
+            <a
+              key={index}
+              href={link.link}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img src={link.icon} alt="" />
             </a>
           ))}

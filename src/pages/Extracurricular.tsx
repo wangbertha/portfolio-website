@@ -7,7 +7,10 @@ const Extracurricular = () => {
     <main className="page extracurricular-page">
       <h1>Extracurricular</h1>
       {extracurriculars.map((extracurricular) => (
-        <ExtracurricularCard extracurricular={extracurricular} />
+        <ExtracurricularCard
+          key={extracurricular.title}
+          extracurricular={extracurricular}
+        />
       ))}
     </main>
   );
