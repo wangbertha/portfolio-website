@@ -1,21 +1,24 @@
 const extracurriculars = [
   {
     title: "Taiwanese-American Community",
-    image: "/src/assets/itasa-logo.png",
+    image: new URL("../assets/itasa-logo.png", import.meta.url).href,
     link: "https://itasa.org/",
   },
   {
     title: "Painting",
-    image: "/src/assets/extracurricular-painting.jpeg",
+    image: new URL("../assets/extracurricular-painting.jpeg", import.meta.url)
+      .href,
   },
   {
     title: "Climbing",
-    image: "/src/assets/extracurricular-climbing.jpeg",
+    image: new URL("../assets/extracurricular-climbing.jpeg", import.meta.url)
+      .href,
     link: "https://www.instagram.com/berry_climbs/",
   },
   {
     title: "Singing",
-    image: "/src/assets/extracurricular-singing.jpeg",
+    image: new URL("../assets/extracurricular-singing.jpeg", import.meta.url)
+      .href,
   },
 ];
 
