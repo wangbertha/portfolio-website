@@ -7,7 +7,11 @@ const Contact = () => {
     <main className="page contact-page">
       <h1>Get in touch!</h1>
       <SocialsList />
-      <img className="accent-img" src={backgroundPic} alt="" />
+      <img
+        className="accent-img"
+        src={backgroundPic}
+        alt="Blue textured color to fill empty space"
+      />
     </main>
   );
 };

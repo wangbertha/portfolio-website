@@ -10,14 +10,20 @@ const SocialsList = () => {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={gitHubLogo} alt="" />
+        <img
+          src={gitHubLogo}
+          alt="GitHub logo linked to Bertha's GitHub profile"
+        />
       </a>
       <a
         href="https://www.linkedin.com/in/wangbertha/"
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img src={linkedInLogo} alt="" />
+        <img
+          src={linkedInLogo}
+          alt="LinkedIn logo linked to Bertha's LinkedIn profile"
+        />
       </a>
     </menu>
   );
