@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+  const { pathname } = useLocation();
+
   return (
     <header>
       <div className="accent-wrapper">
@@ -21,16 +23,16 @@ const Header = () => {
           </svg>
         </div>
         <menu>
-          <li>
+          <li className={pathname === "/projects" ? "selected" : ""}>
             <Link to="projects">Projects</Link>
           </li>
-          <li>
+          <li className={pathname === "/past-experience" ? "selected" : ""}>
             <Link to="past-experience">Past Experience</Link>
           </li>
-          <li>
+          <li className={pathname === "/extracurricular" ? "selected" : ""}>
             <Link to="extracurricular">Extracurricular</Link>
           </li>
-          <li>
+          <li className={pathname === "/contact" ? "selected" : ""}>
             <Link to="contact">Contacts</Link>
           </li>
         </menu>

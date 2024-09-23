@@ -46,7 +46,11 @@ header menu {
     text-transform: uppercase;
 }
 
-@media (min-width: 720px) {
+header .selected {
+    border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 740px) {
     header .accent-wrapper {
         flex-direction: row;
         justify-content: space-between;
