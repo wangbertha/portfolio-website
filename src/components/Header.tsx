@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="accent-wrapper">
+      <nav className="accent-wrapper">
         <div className="nav-hamburger-spacer">
           <p className="page-title">
             <Link to="">Bertha Wang</Link>
@@ -36,7 +36,7 @@ const Header = () => {
             <Link to="contact">Contacts</Link>
           </li>
         </menu>
-      </div>
+      </nav>
     </header>
   );
 };
