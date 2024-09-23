@@ -1,7 +1,7 @@
 const extracurriculars = [
   {
     title: "Taiwanese-American Community",
-    image: "/src/assets/itasa-logo-transparent.png",
+    image: "/src/assets/itasa-logo.png",
     link: "https://itasa.org/",
   },
   {
