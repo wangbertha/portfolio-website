@@ -26,7 +26,7 @@ const PastExperience = () => {
       </p>
       <SkillsList proficiency="high" list={pastSkills} />
       {pastExperiences.map((experience) => (
-        <PastExperienceCard experience={experience} />
+        <PastExperienceCard key={experience.role} experience={experience} />
       ))}
     </main>
   );

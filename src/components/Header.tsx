@@ -36,7 +36,7 @@ const Header = () => {
             <Link to="extracurricular">Extracurricular</Link>
           </li>
           <li className={pathname === "/contact" ? "selected" : ""}>
-            <Link to="contact">Contacts</Link>
+            <Link to="contact">Contact</Link>
           </li>
         </menu>
       </nav>

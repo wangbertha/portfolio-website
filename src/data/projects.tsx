@@ -1,6 +1,7 @@
 const projects = [
   {
     image: "/src/assets/project-fair-housing.png",
+    imgAlt: "Screenshot of a dashboard application with rows of housing data",
     title: "Fair Housing Audit Dashboard",
     year: 2024,
     description:
@@ -9,6 +10,7 @@ const projects = [
       {
         icon: "/src/assets/github-mark.svg",
         link: "https://github.com/wangbertha/hcv_auditor",
+        alt: "GitHub logo",
       },
     ],
     skillsHigh: ["HTML/CSS", "JavaScript", "React.JS"],
@@ -21,6 +23,8 @@ const projects = [
   },
   {
     image: "/src/assets/project-ghost-buses.png",
+    imgAlt:
+      "Screenshot of Chicago Ghost Buses homepage explaining 'What is a Ghost Bus?'",
     title: "Chicago Ghost Buses",
     year: 2024,
     description:
@@ -29,10 +33,12 @@ const projects = [
       {
         icon: "/src/assets/github-mark.svg",
         link: "https://github.com/chihacknight/ghost-buses-frontend",
+        alt: "GitHub logo",
       },
       {
         icon: "/src/assets/ghost-bus-icon.png",
         link: "https://ghostbuses.com/",
+        alt: "Thumbnail of Ghost Buses website",
       },
     ],
     skillsHigh: ["HTML/CSS", "JavaScript", "React.JS"],
@@ -40,6 +46,8 @@ const projects = [
   },
   {
     image: "/src/assets/project-portfolio-website.png",
+    imgAlt:
+      "Screenshot of a portfolio website that displays the person's role and career summary",
     title: "Portfolio Website",
     year: 2024,
     description:
@@ -48,10 +56,12 @@ const projects = [
       {
         icon: "/src/assets/github-mark.svg",
         link: "https://github.com/wangbertha/portfolio-website",
+        alt: "GitHub logo",
       },
       {
         icon: "/src/assets/figma-logo.svg",
         link: "https://www.figma.com/design/McXMjYuY17sXh4MO1dls7T/Portfolio-Website?node-id=0-1&t=CxbCRHQ8ysLcrZZB-1",
+        alt: "Figma logo",
       },
     ],
     skillsHigh: ["HTML/CSS", "TypeScript", "React.JS"],

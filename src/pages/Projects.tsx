@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <main className="page projects-page">
       {projects.map((project) => (
-        <ProjectCard project={project} />
+        <ProjectCard key={project.title} project={project} />
       ))}
     </main>
   );
