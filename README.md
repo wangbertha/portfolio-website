@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+My version of a portfolio website, using TypeScript & React. Check out my work [here.](wangbertha.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow the instructions below to use this as a template for your own portfolio website!
 
-## Expanding the ESLint configuration
+**Prerequisites:** These instructions require knowledge of [the command-line interface](https://www.theodinproject.com/lessons/foundations-command-line-basics) and [git](https://git-scm.com/doc)/GitHub. It also requires a [GitHub account](https://github.com/), and installation of [Node.JS](https://nodejs.org/en/download/prebuilt-installer/current) and a code editor (such as [Visual Studio Code](https://code.visualstudio.com/download)).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Development:** The contents of the app are structured in React files `src/`. React aims to make code organization and readability easier (Ex. Using components). Preview the app in real-time from `src/` to help you iterate on your edits.
 
-- Configure the top-level `parserOptions` property like this:
+**Production:** The code from `src/` needs to be transpiled and bundled into JavaScript so it can be read by the browser's JavaScript Engine. Vite in the Node environment handles this! The bundled code is sent to `dist/`. Preview the app from `dist/` to make sure the contents translated over as expected.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Deployment:** How do I publish my app to the web? There are many options. One of them is to use a GitHub + Netlify combination to get your link ready to share with your network.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Development
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) from GitHub. This allows you to create your own version, while giving you the option to stay connected to my version and import any changes I may make.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Set up the project in your local computer. Navigate to the folder where you'd like to house your project, and [clone your forked repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+   * Note: To check that it is the forked repository and not the main repository, make sure your GitHub username is present within the repository URL. `git clone https://github.com/YOUR-USERNAME/portfolio-website`
+
+3. Install code packages that this project uses by running `npm install`.
+
+   * Code packages ("dependencies") are like little bundles that can be installed to allow certain features to be developed more easily. The list of bundles are tracked in `package.json`. These bundles of code can take up a lot of space, so instead of uploading them to GitHub, `npm install` handily references `package.json` and installs everything listed there. It also makes it easier to understand which packages were used to develop the app.
+
+   * The lists are found under `dependencies` and `devDependencies`. `dependencies` is the list of packages required for production mode, and `devDependencies` is the list required for development mode. Why the distinction? Sometimes, there are packages that are helpful in one mode and not the other.
+
+4. To preview the app in development mode, run `npm run dev`.
+
+   * `package.json` is key here too! This project uses Vite to run the preview, and we define the command for this under `scripts` in `package.json`. You'll see this come up for other commands later on.
+
+5. Dig into the code, and edit it to your heart's content! Much of the content is stored away in `data/`, but deciding to change little nuances and adding additional features can help you learn the anatomy of this project.
+
+## Production Mode
+
+1. Remember how we need to transpile and bundle the React code from `src/` into JavaScript? Run `npm run build` to do this, and notice that a new `dist/` folder is created (or updated, if you ran this before). This is the production code.
+
+   * Notice another use of the `scripts` from `package.json` here!
+
+2. It's not uncommon to find issues in the production code. For example, maybe a relative path defined in `src/` no longer applies in `dist/` (not speaking from experience or anything...). Run `npm run preview` to preview the app from the *production* code. Examine and test it for issues.
+
+## Deployment
+
+1. Does the production code look great, and are you itching to share it with your friends? There are many great, simple services that will help you here. For example, deploy your app directly from your GitHub repository (it will automatically sync to any new changes pushed there as well) with [Netlify](https://app.netlify.com/start).
+
+2. Share your link and celebrate!
