@@ -6,13 +6,15 @@ import "./Home.css";
 const Home = () => {
   return (
     <section className="page home-page">
-      <h1>
-        Software Engineer / <br /> Web Developer
-      </h1>
-      <h2>
-        Curious and passionate about technology, focused on impact, always
-        learning and growing
-      </h2>
+      <header>
+        <h1>
+          Software Engineer / <br /> Web Developer
+        </h1>
+        <h2>
+          Curious and passionate about technology, focused on impact, always
+          learning and growing
+        </h2>
+      </header>
       <p>
         Coming from a background in mechanical engineering and business, I'm
         experienced in the product development process, system design, version
