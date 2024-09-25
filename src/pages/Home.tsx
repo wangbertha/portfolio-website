@@ -1,18 +1,9 @@
 import SkillsList from "../components/SkillsList";
 import SocialsList from "../components/SocialsList";
+import { skillsHigh, skillsMedium } from "../data/skills";
 import "./Home.css";
 
 const Home = () => {
-  const skillsHigh = ["HTML/CSS", "JavaScript", "React.JS", "Git/GitHub"];
-  const skillsMedium = [
-    "TypeScript",
-    "Node.JS",
-    "Google Cloud Platform",
-    "Figma",
-    "Python",
-    "Java",
-  ];
-
   return (
     <section className="page home-page">
       <h1>
