@@ -1,4 +1,3 @@
-import PastExperienceCard from "../components/PastExperienceCard";
 import SkillsList from "../components/SkillsList";
 import pastExperiences from "../data/past-experiences";
 import { pastSkills } from "../data/skills";
@@ -17,6 +16,32 @@ const PastExperience = () => {
         <PastExperienceCard key={experience.role} experience={experience} />
       ))}
     </main>
+  );
+};
+
+interface PastExperienceCardProps {
+  experience: {
+    role: string;
+    company: string;
+    dates: string;
+    bullets: string[];
+  };
+}
+
+const PastExperienceCard = ({ experience }: PastExperienceCardProps) => {
+  return (
+    <section className="experience-card">
+      <div className="experience-header">
+        <h2>{experience.role}</h2>
+        <h3>{experience.company}</h3>
+        <p className="experience-dates">{experience.dates}</p>
+      </div>
+      <ul className="experience-bullets">
+        {experience.bullets.map((bullet, index) => (
+          <li key={index}>{bullet}</li>
+        ))}
+      </ul>
+    </section>
   );
 };
 
