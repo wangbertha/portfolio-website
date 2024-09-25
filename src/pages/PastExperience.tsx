@@ -8,8 +8,8 @@ const PastExperience = () => {
     <main className="page past-experience-page">
       <h1>Past Experience</h1>
       <p>
-        Prior to starting my career in software engineering, I gained skills and
-        experience in mechanical engineering and management.
+        Prior to starting my career in software engineering, I gained diverse
+        skills and experience in mechanical engineering and management.
       </p>
       <SkillsList proficiency="high" list={pastSkills} />
       {pastExperiences.map((experience) => (

@@ -16,10 +16,10 @@ const Home = () => {
         </h2>
       </header>
       <p>
-        Coming from a background in mechanical engineering and business, I'm
-        experienced in the product development process, system design, version
-        control, project management, mentorship, creativity, and high attention
-        to detail.
+        Coming from a background in mechanical engineering and business, I bring
+        a diverse set of skills and experiences, including the product
+        development process, system design, version control, project management,
+        mentorship, creativity, and high attention to detail.
       </p>
       <p>
         Over the past half year, I dove into my passion for coding and
