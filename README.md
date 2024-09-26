@@ -2,7 +2,7 @@
 
 ## Description
 
-My version of a portfolio website, using TypeScript & React. Check out [my deployment!](wangbertha.netlify.app/)
+My version of a portfolio website, using TypeScript & React and hosted with Netlify. Check out [my deployment!](wangbertha.com)
 
 Follow the instructions below to use this as a template for your own portfolio website! I love helping others, but please **attribute me** in your project.
 
@@ -47,3 +47,5 @@ Follow the instructions below to use this as a template for your own portfolio w
 1. Does the production code look great, and are you itching to share it with your friends? There are many great, simple services that will help you here. For example, deploy your app directly from your GitHub repository (it will automatically sync to any new changes pushed there as well) with [Netlify](https://app.netlify.com/start).
 
 2. Share your link and celebrate!
+
+   * Your link will look a little something like this: `[unique text].netlify.app/`

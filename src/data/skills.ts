@@ -3,6 +3,7 @@ export const skillsMedium = [
     "TypeScript",
     "Node.JS",
     "Google Cloud Platform",
+    "Netlify",
     "Figma",
     "Python",
     "Java",
