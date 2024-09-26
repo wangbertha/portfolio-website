@@ -7,7 +7,7 @@ const Header = () => {
   const [menuToggle, setMenuToggle] = useState(false);
 
   return (
-    <header>
+    <header className="page-header">
       <nav className="accent-wrapper">
         <div className="nav-hamburger-spacer">
           <p className="page-title">
