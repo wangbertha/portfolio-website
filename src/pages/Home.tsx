@@ -23,8 +23,8 @@ const Home = () => {
       </p>
       <p>
         Over the past half year, I dove into my passion for coding and
-        technology. I started my journey first through self-learning and am
-        currently attending{" "}
+        technology. I started my journey first through self-learning and
+        recently graduated from{" "}
         <a
           href="https://www.fullstackacademy.com/programs/coding-bootcamp"
           target="_blank"
