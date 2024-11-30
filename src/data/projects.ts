@@ -5,7 +5,7 @@ const projects = [
     title: "Fair Housing Audit Dashboard",
     year: 2024,
     description:
-      "Designed and implemented a dashboard for a Chicago nonprofit to uphold fair housing law compliance. Developed with React.JS and Node.JS (Express) and read/written to a PostgreSQL database. Deployed with Google App Engine and set up authentication with GCP Identity-Aware Proxy (IAP).",
+      "Designed and implemented a dashboard for a Chicago nonprofit to uphold fair housing law compliance. Developed with React.js and Node.js (Express) and read/written to a PostgreSQL database. Deployed with Google App Engine and set up authentication with GCP Identity-Aware Proxy (IAP).",
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -13,9 +13,9 @@ const projects = [
         alt: "GitHub logo",
       },
     ],
-    skillsHigh: ["HTML/CSS", "JavaScript", "React.JS"],
+    skillsHigh: ["HTML", "CSS", "JavaScript", "React.js"],
     skillsMed: [
-      "Node.JS",
+      "Node.js",
       "Google App Engine",
       "GCP Identity-Aware Proxy",
       "PostgreSQL",
@@ -28,7 +28,7 @@ const projects = [
     title: "Chicago Ghost Buses",
     year: 2024,
     description:
-      "Open-source project under Chi Hack Night analyzing bus reliability in Chicago. Resolved frontend bugs and provided pull-request feedback for HTML/CSS and React.JS",
+      "Open-source project under Chi Hack Night analyzing bus reliability in Chicago. Resolved frontend bugs and provided pull-request feedback for HTML/CSS and React.js",
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -41,7 +41,7 @@ const projects = [
         alt: "Thumbnail of Ghost Buses website",
       },
     ],
-    skillsHigh: ["HTML/CSS", "JavaScript", "React.JS"],
+    skillsHigh: ["HTML", "CSS", "JavaScript", "React.js"],
     skillsMed: [],
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     title: "Portfolio Website",
     year: 2024,
     description:
-      "Developed this portfolio website with React.JS. Designed with Figma.",
+      "Developed this portfolio website with React.js. Designed with Figma.",
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -65,7 +65,7 @@ const projects = [
         alt: "Figma logo",
       },
     ],
-    skillsHigh: ["HTML/CSS", "TypeScript", "React.JS"],
+    skillsHigh: ["HTML", "CSS", "TypeScript", "React.js"],
     skillsMed: ["Figma"],
   },
 ];

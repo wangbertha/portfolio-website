@@ -1,7 +1,15 @@
-export const skillsHigh = ["HTML/CSS", "JavaScript", "React.JS", "Git/GitHub"];
+export const skillsHigh = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js", 
+    "Node.js",
+    "Git",
+    "GitHub",
+];
 export const skillsMedium = [
     "TypeScript",
-    "Node.JS",
+    "Express.js",
     "Google Cloud Platform",
     "Netlify",
     "Figma",
