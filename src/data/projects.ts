@@ -1,5 +1,48 @@
 const projects = [
   {
+    image: new URL("../assets/project-convene-app.png", import.meta.url).href,
+    imgAlt: "Screenshot of a dashboard application with rows of housing data",
+    title: "Convene App",
+    year: 2024,
+    description:
+      "Collaborated in a team of 5 developers to design, develop, debug, and deploy a web application where users can find friends/dates and plan for their in-person meetings.",
+    links: [
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/wangbertha/convene-app-frontend",
+        alt: "GitHub logo",
+      },
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/wangbertha/convene-app-backend",
+        alt: "GitHub logo",
+      },
+      {
+        icon: new URL("../assets/project-convene-app.png", import.meta.url).href,
+        link: "https://convene-app.netlify.app/",
+        alt: "GitHub logo",
+      },
+    ],
+    skillsHigh: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Vite",
+      "Redux.js",
+      "Node.js",
+      "Express.js",
+      "REST APIs"
+    ],
+    skillsMed: [
+      "PostgreSQL",
+      "Prisma",
+      "JWT Authentication",
+      "Netlify",
+      "Render"
+    ],
+  },
+  {
     image: new URL("../assets/project-fair-housing.png", import.meta.url).href,
     imgAlt: "Screenshot of a dashboard application with rows of housing data",
     title: "Fair Housing Audit Dashboard",
