@@ -1,6 +1,6 @@
 import SkillsList from "../components/SkillsList";
 import pastExperiences from "../data/past-experiences";
-import { pastSkills } from "../data/skills";
+import { pastSkillsHigh, pastSkillsMedium } from "../data/skills";
 import "./PastExperience.css";
 
 const PastExperience = () => {
@@ -11,7 +11,8 @@ const PastExperience = () => {
         Prior to starting my career in software engineering, I gained diverse
         skills and experience in mechanical engineering and management.
       </p>
-      <SkillsList proficiency="high" list={pastSkills} />
+      <SkillsList proficiency="high" list={pastSkillsHigh} />
+      <SkillsList proficiency="medium" list={pastSkillsMedium} />
       {pastExperiences.map((experience) => (
         <PastExperienceCard key={experience.role} experience={experience} />
       ))}
