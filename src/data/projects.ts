@@ -18,7 +18,7 @@ const projects = [
         alt: "GitHub logo",
       },
       {
-        icon: new URL("../assets/project-convene-app.png", import.meta.url).href,
+        icon: new URL("../assets/convene-app-icon.png", import.meta.url).href,
         link: "https://convene-app.netlify.app/",
         alt: "GitHub logo",
       },
