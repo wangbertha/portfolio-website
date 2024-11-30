@@ -24,22 +24,22 @@ const projects = [
       },
     ],
     skillsHigh: [
+      "JavaScript",
       "HTML",
       "CSS",
-      "JavaScript",
       "React.js",
       "Vite",
       "Redux.js",
       "Node.js",
       "Express.js",
-      "REST APIs"
-    ],
-    skillsMed: [
+      "REST APIs",
       "PostgreSQL",
       "Prisma",
       "JWT Authentication",
+    ],
+    skillsMed: [
       "Netlify",
-      "Render"
+      "Render",
     ],
   },
   {
@@ -56,12 +56,12 @@ const projects = [
         alt: "GitHub logo",
       },
     ],
-    skillsHigh: ["HTML", "CSS", "JavaScript", "React.js"],
+    skillsHigh: ["JavaScript", "HTML", "CSS", "React.js", "Node.js", "Express.js", "REST APIs"],
     skillsMed: [
-      "Node.js",
+      "DBeaver",
+      "PostgreSQL",
       "Google App Engine",
       "GCP Identity-Aware Proxy",
-      "PostgreSQL",
     ],
   },
   {
@@ -84,8 +84,8 @@ const projects = [
         alt: "Thumbnail of Ghost Buses website",
       },
     ],
-    skillsHigh: ["HTML", "CSS", "JavaScript", "React.js"],
-    skillsMed: [],
+    skillsHigh: ["HTML", "SCSS", "React.js"],
+    skillsMed: ["Netlify"],
   },
   {
     image: new URL("../assets/project-portfolio-website.png", import.meta.url)
@@ -108,7 +108,7 @@ const projects = [
         alt: "Figma logo",
       },
     ],
-    skillsHigh: ["HTML", "CSS", "TypeScript", "React.js"],
+    skillsHigh: ["TypeScript", "HTML", "CSS", "React.js", "Vite"],
     skillsMed: ["Figma"],
   },
 ];
