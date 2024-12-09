@@ -13,20 +13,22 @@ export const skillsHigh = [
     "GitHub",
 ];
 export const skillsMedium = [
+    "Java",
+    "Python",
     "TypeScript",
+    "Vue.js",
+    "SCSS",
     "PostgreSQL",
     "SQL",
-    "Prisma",
+    "Prisma ORM",
     "DBeaver",
     "JWT Authentication",
     "Netlify",
-    "Render",
+    "Render (Cloud Application Platform)",
     "Google Cloud Platform (GCP)",
     "Google App Engine",
     "GCP Identity-Aware Proxy",
     "Figma",
-    "Python",
-    "Java",
 ];
 
 export const pastSkillsHigh = [

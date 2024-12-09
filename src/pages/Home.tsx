@@ -36,7 +36,9 @@ const Home = () => {
         work with nonprofits and contribute to open source projects.
       </p>
       <div className="skills-list-wrapper">
+        <h3>Primary Languages & Tools:</h3>
         <SkillsList proficiency="high" list={skillsHigh} />
+        <h3>Knowledgeable/Proficient Languages & Tools:</h3>
         <SkillsList proficiency="medium" list={skillsMedium} />
       </div>
       <SocialsList />
