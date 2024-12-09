@@ -1,7 +1,7 @@
 const projects = [
   {
     image: new URL("../assets/project-convene-app.png", import.meta.url).href,
-    imgAlt: "Screenshot of a dashboard application with rows of housing data",
+    imgAlt: "Screenshot of Convene app homepage",
     title: "Convene App",
     year: 2024,
     description:
@@ -20,7 +20,7 @@ const projects = [
       {
         icon: new URL("../assets/convene-app-icon.png", import.meta.url).href,
         link: "https://convene-app.netlify.app/",
-        alt: "GitHub logo",
+        alt: "Convene app logo",
       },
     ],
     skillsHigh: [
@@ -34,12 +34,12 @@ const projects = [
       "Express.js",
       "REST APIs",
       "PostgreSQL",
-      "Prisma",
+      "Prisma ORM",
       "JWT Authentication",
     ],
     skillsMed: [
       "Netlify",
-      "Render",
+      "Render (Cloud Application Platform)",
     ],
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     title: "Fair Housing Audit Dashboard",
     year: 2024,
     description:
-      "Designed and implemented a dashboard for a Chicago nonprofit to uphold fair housing law compliance. Developed with React.js and Node.js (Express) and read/written to a PostgreSQL database. Deployed with Google App Engine and set up authentication with GCP Identity-Aware Proxy (IAP).",
+      "Designed and implemented a dashboard for a Chicago nonprofit to uphold fair housing law compliance. Developed with React.js and Node.js (Express) and read/written to a PostgreSQL database. Deployed with Google App Engine and set up authentication with Google Cloud Platform Identity-Aware Proxy (IAP).",
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -60,9 +60,32 @@ const projects = [
     skillsMed: [
       "DBeaver",
       "PostgreSQL",
+      "Google Cloud Platform",
       "Google App Engine",
-      "GCP Identity-Aware Proxy",
     ],
+  },
+  {
+    image: new URL("../assets/project-electrify-chicago.png", import.meta.url).href,
+    imgAlt:
+      "Screenshot of Electrify Chicago building page",
+    title: "Electrify Chicago",
+    year: 2024,
+    description:
+      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Contributed a "call-to-action" feature with copy-to-clipboard functionality using HTML, SCSS, TypeScript, and Vue.js',
+    links: [
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/vkoves/electrify-chicago",
+        alt: "GitHub logo",
+      },
+      {
+        icon: new URL("../assets/electrify-chicago-logo.png", import.meta.url).href,
+        link: "https://electrifychicago.net/",
+        alt: "Electrify Chicago logo",
+      },
+    ],
+    skillsHigh: ["HTML", "SCSS", "TypeScript", "Vue.js"],
+    skillsMed: ["Netlify"],
   },
   {
     image: new URL("../assets/project-ghost-buses.png", import.meta.url).href,
