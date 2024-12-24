@@ -1,55 +1,56 @@
-export const skillsHigh = [
+export const skillsPrimary = [
     "JavaScript",
+    "TypeScript",
+    "Java",
     "HTML",
     "CSS",
-    "SCSS",
     "React.js",
     "Vite",
-    "Redux",
     "Node.js",
     "Express.js",
     "REST APIs",
     "Git",
     "GitHub",
 ];
-export const skillsMedium = [
-    "Java",
-    "Python",
-    "TypeScript",
+export const skillsProficient = [
     "Vue.js",
     "SCSS",
-    "PostgreSQL",
+    "Tailwind",
+    "Vercel",
+    "Redux",
     "SQL",
+    "PostgreSQL",
     "Prisma ORM",
     "DBeaver",
     "JWT Authentication",
     "Netlify",
+    "Cloudflare",
     "Render (Cloud Application Platform)",
     "Google Cloud Platform (GCP)",
     "Google App Engine",
-    "GCP Identity-Aware Proxy",
     "Figma",
 ];
 
-export const pastSkillsHigh = [
+export const pastSkillsCompetencies = [
+    "Problem-Solving",
     "Product Development",
     "System Design",
     "Modular Design",
     "Product Testing",
     "Version Control",
     "Project Management",
-    "Mentorship",
     "Agile Methodology",
+    "Continuous Improvement",
     "Creativity",
     "Attention to Detail",
-    "Continuous Improvement",
     "Documentation",
+    "Mentorship",
 ];
 
-export const pastSkillsMedium = [
+export const pastSkillsTools = [
     "Power BI",
-    "PTC Creo (CAD)",
-    "SolidWorks (CAD)",
+    "PTC Creo",
+    "SolidWorks",
     "R",
     "MATLAB"
 ];
