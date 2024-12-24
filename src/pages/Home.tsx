@@ -1,6 +1,6 @@
 import SkillsList from "../components/SkillsList";
 import SocialsList from "../components/SocialsList";
-import { skillsHigh, skillsMedium } from "../data/skills";
+import { skillsPrimary, skillsProficient } from "../data/skills";
 import "./Home.css";
 
 const Home = () => {
@@ -37,9 +37,9 @@ const Home = () => {
       </p>
       <div className="skills-list-wrapper">
         <h3>Primary Languages & Tools:</h3>
-        <SkillsList proficiency="high" list={skillsHigh} />
+        <SkillsList proficiency="high" list={skillsPrimary} />
         <h3>Knowledgeable/Proficient Languages & Tools:</h3>
-        <SkillsList proficiency="medium" list={skillsMedium} />
+        <SkillsList proficiency="medium" list={skillsProficient} />
       </div>
       <SocialsList />
     </section>

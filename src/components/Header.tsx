@@ -29,8 +29,8 @@ const Header = () => {
           <li className={pathname === "/projects" ? "selected" : ""}>
             <Link to="projects">Projects</Link>
           </li>
-          <li className={pathname === "/past-experience" ? "selected" : ""}>
-            <Link to="past-experience">Past Experience</Link>
+          <li className={pathname === "/experience" ? "selected" : ""}>
+            <Link to="experience">Experience</Link>
           </li>
           <li className={pathname === "/extracurricular" ? "selected" : ""}>
             <Link to="extracurricular">Extracurricular</Link>
