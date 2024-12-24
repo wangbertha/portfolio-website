@@ -1,5 +1,46 @@
 const projects = [
   {
+    image: new URL("../assets/project-2dgame.png", import.meta.url).href,
+    imgAlt:
+      "Screenshot of 2D game, where a player is pushing a box towards a hole",
+    title: "2D Game *In-Progress*",
+    year: 2024,
+    description:
+      'Puzzle game where the player must push a box into a target. Developed with Java',
+    links: [
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/wangbertha/2DGame",
+        alt: "GitHub logo",
+      },
+    ],
+    skillsHigh: ["Java"],
+    skillsMed: ["javax.swing", "java.awt", "java.io"],
+  },
+  {
+    image: new URL("../assets/project-electrify-chicago.png", import.meta.url).href,
+    imgAlt:
+      "Screenshot of Electrify Chicago building page",
+    title: "Electrify Chicago",
+    year: 2024,
+    description:
+      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Contributed a "call-to-action" feature with copy-to-clipboard functionality using HTML, SCSS, TypeScript, and Vue.js',
+    links: [
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/vkoves/electrify-chicago",
+        alt: "GitHub logo",
+      },
+      {
+        icon: new URL("../assets/electrify-chicago-logo.png", import.meta.url).href,
+        link: "https://electrifychicago.net/",
+        alt: "Electrify Chicago logo",
+      },
+    ],
+    skillsHigh: ["HTML", "SCSS", "TypeScript", "Vue.js"],
+    skillsMed: ["Netlify"],
+  },
+  {
     image: new URL("../assets/project-convene-app.png", import.meta.url).href,
     imgAlt: "Screenshot of Convene app homepage",
     title: "Convene App",
@@ -63,29 +104,6 @@ const projects = [
       "Google Cloud Platform",
       "Google App Engine",
     ],
-  },
-  {
-    image: new URL("../assets/project-electrify-chicago.png", import.meta.url).href,
-    imgAlt:
-      "Screenshot of Electrify Chicago building page",
-    title: "Electrify Chicago",
-    year: 2024,
-    description:
-      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Contributed a "call-to-action" feature with copy-to-clipboard functionality using HTML, SCSS, TypeScript, and Vue.js',
-    links: [
-      {
-        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
-        link: "https://github.com/vkoves/electrify-chicago",
-        alt: "GitHub logo",
-      },
-      {
-        icon: new URL("../assets/electrify-chicago-logo.png", import.meta.url).href,
-        link: "https://electrifychicago.net/",
-        alt: "Electrify Chicago logo",
-      },
-    ],
-    skillsHigh: ["HTML", "SCSS", "TypeScript", "Vue.js"],
-    skillsMed: ["Netlify"],
   },
   {
     image: new URL("../assets/project-ghost-buses.png", import.meta.url).href,
