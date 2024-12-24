@@ -4,7 +4,7 @@
 
 My version of a portfolio website, using TypeScript & React and hosted with Netlify. Check out [my deployment!](wangbertha.com)
 
-Follow the instructions below to use this as a template for your own portfolio website! You are not required to attribute me, but I would appreciate it if you do!
+Instructions to use this as a template are provided below and are intended to be beginner-friendly. You are not required to attribute me, but I would appreciate it if you do!
 
 **Prerequisites:** These instructions require knowledge of [the command-line interface](https://www.theodinproject.com/lessons/foundations-command-line-basics) and [git](https://git-scm.com/doc)/GitHub. It also requires a [GitHub account](https://github.com/), and installation of [Node.JS](https://nodejs.org/en/download/prebuilt-installer/current) and a code editor (such as [Visual Studio Code](https://code.visualstudio.com/download)).
 
