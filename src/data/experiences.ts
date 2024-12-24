@@ -1,4 +1,19 @@
-const pastExperiences = [
+export const relevantExperiences = [
+  {
+    role: "Software Engineer",
+    company: "Asian Connections Hub",
+    dates: "December 2024 - Present (Part-Time)",
+    bullets: [
+      "Collaborate with 5 developers to build a mental health and wellness app in a private GitHub repository",
+      "Develop homepage based on designs and assets in Figma",
+      "Plan and organize efficient React components, optimizing for code reusability",
+      "Actively communicate with manager for responsibilities and feedback through GitHub and Slack",
+    ],
+    tools: ["TypeScript", "HTML", "Tailwind", "React.js", "Next.js", "Vercel", "Figma"],
+  },
+];
+
+export const pastExperiences = [
   {
     role: "CAD Supervisor",
     company: "McMaster-Carr",
@@ -37,5 +52,3 @@ const pastExperiences = [
     ],
   },
 ];
-
-export default pastExperiences;

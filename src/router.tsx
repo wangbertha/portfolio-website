@@ -1,7 +1,7 @@
 import App from "./App";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import PastExperience from "./pages/PastExperience";
+import Experience from "./pages/Experience";
 import Extracurricular from "./pages/Extracurricular";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
@@ -21,8 +21,8 @@ export const routes = [
         element: <Projects />,
       },
       {
-        path: "past-experience",
-        element: <PastExperience />,
+        path: "experience",
+        element: <Experience />,
       },
       {
         path: "extracurricular",
