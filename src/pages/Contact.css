@@ -9,9 +9,7 @@
 }
 
 .contact-page .accent-img {
-    height: 15rem;
-    width: 20rem;
-    margin-top: 2rem;
+    display: none;
 }
 
 @media (min-width: 720px) {

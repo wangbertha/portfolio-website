@@ -24,7 +24,7 @@ const projects = [
     title: "Electrify Chicago",
     year: 2024,
     description:
-      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Contributed a "call-to-action" feature with copy-to-clipboard functionality using HTML, SCSS, TypeScript, and Vue.js',
+      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Executed 2+ frontend features in TypeScript, HTML, SCSS, and Vue.js, including tooltips, user experience edge-case improvements, and a “call-to-action” modal with copy-to-clipboard functionality',
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -89,7 +89,7 @@ const projects = [
     title: "Fair Housing Audit Dashboard",
     year: 2024,
     description:
-      "Designed and implemented a dashboard for a Chicago nonprofit to uphold fair housing law compliance. Developed with React.js and Node.js (Express) and read/written to a PostgreSQL database. Deployed with Google App Engine and set up authentication with Google Cloud Platform Identity-Aware Proxy (IAP).",
+      "Architected a full-stack dashboard for fair housing nonprofit to monitor a database of 100,000+ public housing listings using technologies including React.js, Node.js, Express.js, and Google Cloud Platform (GCP)",
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -102,7 +102,6 @@ const projects = [
       "DBeaver",
       "PostgreSQL",
       "Google Cloud Platform",
-      "Google App Engine",
     ],
   },
   {

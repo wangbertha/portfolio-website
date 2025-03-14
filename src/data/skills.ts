@@ -1,34 +1,28 @@
-export const skillsPrimary = [
+export const skillsLanguages = [
     "JavaScript",
     "TypeScript",
     "Java",
     "HTML",
     "CSS",
+];
+export const skillsLibrariesFrameworks = [
     "React.js",
-    "Vite",
+    "Next.js",
+    "Vue.js",
+    "Tailwind CSS",
+    "Redux Toolkit",
     "Node.js",
     "Express.js",
-    "REST APIs",
+];
+
+export const skillsToolsPlatforms = [
     "Git",
     "GitHub",
-];
-export const skillsProficient = [
-    "Vue.js",
-    "SCSS",
-    "Tailwind",
-    "Vercel",
-    "Redux",
-    "SQL",
     "PostgreSQL",
     "Prisma ORM",
-    "DBeaver",
-    "JWT Authentication",
     "Netlify",
-    "Cloudflare",
-    "Render (Cloud Application Platform)",
     "Google Cloud Platform (GCP)",
-    "Google App Engine",
-    "Figma",
+    "Supabase",
 ];
 
 export const pastSkillsCompetencies = [

@@ -1,15 +1,15 @@
 export const relevantExperiences = [
   {
-    role: "Software Engineer",
-    company: "Asian Connections Hub",
-    dates: "December 2024 - Present (Part-Time)",
+    role: "Full Stack Developer",
+    company: "Freelance, Volunteer",
+    dates: "April 2024 - Present",
     bullets: [
-      "Collaborate with 5 developers to build a mental health and wellness app in a private GitHub repository",
-      "Develop homepage based on designs and assets in Figma",
-      "Plan and organize efficient React components, optimizing for code reusability",
-      "Actively communicate with manager for responsibilities and feedback through GitHub and Slack",
+      "Develop full-stack applications for nonprofits and contribute to open-source projects, both independently and in teams.",
+      "Asian Connections Hub / Sunnyside: Build a full-stack community and wellness platform in a team of 5 developers with TypeScript, Tailwind CSS, Next.js, Vercel, Supabase, Google OAuth, and Figma in a private GitHub repository.",
+      "Chi Hack Night: Electrify Chicago (See Projects).",
+      "Chicago Area Fair Housing Alliance: Fair Housing Audit Dashboard (See Projects).",
     ],
-    tools: ["TypeScript", "HTML", "Tailwind", "React.js", "Next.js", "Vercel", "Figma"],
+    tools: ["HTML", "CSS", "Tailwind CSS", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma"],
   },
 ];
 
@@ -19,9 +19,9 @@ export const pastExperiences = [
     company: "McMaster-Carr",
     dates: "November 2021 - July 2023",
     bullets: [
-      "Spearheaded development of digital representations in SolidWorks for over 5,000 products by managing 7 CAD (Computer-Aided Design) engineers across 4 company initiatives.",
-      "Advanced project forecasting accuracy by 30% through analysis of 4 key project attributes in Excel, driving budgeting decisions and fostering a culture for continuous improvement.",
-      "Enhanced work quality by 4% through individualized mentoring of experienced CAD engineers, focusing on technical skill development, process adherence, and empathizing with strengths and weaknesses.",
+      "Led development of 3D models (SolidWord) for 5,000+ products by managing 7 CAD engineers.",
+      "Increased forecasting accuracy by 30% and drove budgeting decisions through analysis of 4 attributes.",
+      "Improved work quality by 4% by mentoring and coaching experienced CAD engineers, focusing on technical skill development, process adherence, and empathizing with strengths and weaknesses.",
     ],
   },
   {
@@ -29,8 +29,8 @@ export const pastExperiences = [
     company: "McMaster-Carr",
     dates: "June 2021 - November 2021",
     bullets: [
-      "Effectively resourced data (mainframe, Neo4j graphs) for 2 projects to extract insights for over 2,000 products, informing future decisions to promote website engagement and product performance.",
-      "Promoted first in cohort for technical expertise and company contributions.",
+      "Identified opportunities to increase product sales by 5% by extracting data insights for over 2,000 products.",
+      "Promoted first in cohort within 5 months for technical expertise and company contributions.",
     ],
   },
   {
@@ -38,17 +38,18 @@ export const pastExperiences = [
     company: "Schlumberger",
     dates: "January 2021 - May 2021",
     bullets: [
-      "Transformed customer specifications into mechanical designs using system and modular design principles. Prototyped and tested designs using PTC Creo, experimental design, and HPHT testing facilities.",
-      "Selected for this high-visibility team for technical aptitude, attention to detail, and open mindset.",
+      "Transformed customer specifications into designs using modular design principles and agile methodologies.",
+      "Selected for this high-visibility team for technical abilities, 2.5+ years of product knowledge, and open mindset.",
     ],
   },
   {
-    role: "Design Engineer",
+    role: "Sustaining & Rapid Response Engineer",
     company: "Schlumberger",
     dates: "July 2018 - January 2021",
     bullets: [
-      "Innovated existing products by analyzing customer/manufacturing feedback and performance data, generating buy-in for new designs and formalizing changes in the engineering data management system.",
-      "Optimized product portfolio by calculating product performance distribution to allocate resources effectively by 5%. Implemented Power BI dashboards for continued performance monitoring.",
+      "Advanced physical and temperature constraints to increase market coverage and system modularity",
+      "Solved customer and manufacturing issues by analyzing tolerance stack-ups, user reports, and test records.",
+      "Optimized product portfolio by 6% by analyzing product sales in Power BI and identifying obsolete products. Implemented dashboards for continued product performance monitoring, and created maintenance documentation for business continuity.",
     ],
   },
 ];
