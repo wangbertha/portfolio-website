@@ -4,7 +4,7 @@ const projects = [
     imgAlt:
       "Screenshot of 2D game, where a player is pushing a box towards a hole",
     title: "2D Game *In-Progress*",
-    year: 2024,
+    year: "2024 - 2025",
     description:
       'Puzzle game where the player must push a box into a target. Developed with Java',
     links: [
@@ -22,7 +22,7 @@ const projects = [
     imgAlt:
       "Screenshot of Electrify Chicago building page",
     title: "Electrify Chicago",
-    year: 2024,
+    year: "2024 - 2025",
     description:
       'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Executed 2+ frontend features in TypeScript, HTML, SCSS, and Vue.js, including tooltips, user experience edge-case improvements, and a “call-to-action” modal with copy-to-clipboard functionality',
     links: [
