@@ -17,7 +17,7 @@ interface ProjectCardProps {
     image: string;
     imgAlt: string;
     title: string;
-    year: number;
+    year: number | string;
     description: string;
     links: LinksProps[];
     skillsHigh: string[];
