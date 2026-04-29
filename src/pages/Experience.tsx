@@ -8,14 +8,14 @@ const Experience = () => {
       <div className="experience-wrapper">
         <h1>Experience</h1>
         {relevantExperiences.map((experience) => (
-          <PastExperienceCard key={experience.role} experience={experience} />
+          <ExperienceCard key={experience.role} experience={experience} />
         ))}
       </div>
     </main>
   );
 };
 
-interface PastExperienceCardProps {
+interface ExperienceCardProps {
   experience: {
     role: string;
     company: string;
@@ -25,7 +25,7 @@ interface PastExperienceCardProps {
   };
 }
 
-const PastExperienceCard = ({ experience }: PastExperienceCardProps) => {
+const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
     <section className="experience-card">
       <header className="experience-header">
