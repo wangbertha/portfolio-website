@@ -1,5 +1,4 @@
-import { relevantExperiences, pastExperiences } from "../data/experiences";
-import { pastSkillsCompetencies, pastSkillsTools } from "../data/skills";
+import { relevantExperiences } from "../data/experiences";
 import SkillsList from "../components/SkillsList";
 import "./Experience.css";
 
