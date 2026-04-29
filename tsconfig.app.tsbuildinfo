@@ -1,1 +1,23 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/router.tsx","./src/vite-env.d.ts","./src/components/footer.tsx","./src/components/header.tsx","./src/components/skillslist.tsx","./src/components/socialslist.tsx","./src/data/extracurriculars.ts","./src/data/past-experiences.ts","./src/data/projects.ts","./src/data/skills.ts","./src/pages/contact.tsx","./src/pages/errorpage.tsx","./src/pages/extracurricular.tsx","./src/pages/home.tsx","./src/pages/pastexperience.tsx","./src/pages/projects.tsx"],"version":"5.6.2"}
+{
+  "root": [
+    "./src/app.tsx",
+    "./src/main.tsx",
+    "./src/router.tsx",
+    "./src/vite-env.d.ts",
+    "./src/components/footer.tsx",
+    "./src/components/header.tsx",
+    "./src/components/skillslist.tsx",
+    "./src/components/socialslist.tsx",
+    "./src/data/extracurriculars.ts",
+    "./src/data/experiences.ts",
+    "./src/data/projects.ts",
+    "./src/data/skills.ts",
+    "./src/pages/contact.tsx",
+    "./src/pages/errorpage.tsx",
+    "./src/pages/extracurricular.tsx",
+    "./src/pages/home.tsx",
+    "./src/pages/experience.tsx",
+    "./src/pages/projects.tsx"
+  ],
+  "version": "5.6.2"
+}
