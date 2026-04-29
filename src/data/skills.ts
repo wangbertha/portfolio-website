@@ -1,11 +1,16 @@
 export const skillsLanguages = [
+    "Python",
+    "SQL",
+    "R",
+    "VBA",
     "JavaScript",
     "TypeScript",
-    "Java",
-    "HTML",
-    "CSS",
 ];
 export const skillsLibrariesFrameworks = [
+    "Pandas",
+    "NumPy",
+    "Seaborn",
+    "Matplotlib",
     "React.js",
     "Next.js",
     "Vue.js",
@@ -16,12 +21,15 @@ export const skillsLibrariesFrameworks = [
 ];
 
 export const skillsToolsPlatforms = [
+    "Visual Studio Code",
+    "RStudio",
+    "PostgreSQL",
+    "Power BI",
+    "Google Cloud Platform (GCP)",
     "Git",
     "GitHub",
-    "PostgreSQL",
     "Prisma ORM",
     "Netlify",
-    "Google Cloud Platform (GCP)",
     "Supabase",
 ];
 

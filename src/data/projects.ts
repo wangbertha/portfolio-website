@@ -1,21 +1,21 @@
 const projects = [
   {
-    image: new URL("../assets/project-2dgame.png", import.meta.url).href,
+    image: new URL("../assets/project-california-housing-price-predictor.png", import.meta.url).href,
     imgAlt:
-      "Screenshot of 2D game, where a player is pushing a box towards a hole",
-    title: "2D Game *In-Progress*",
-    year: "2024 - 2025",
+      "Screenshot of web application page involving a form",
+    title: "California Housing Price Predictor",
+    year: "2025",
     description:
-      'Puzzle game where the player must push a box into a target. Developed with Java',
+      'Web application that predicts the cost of a home in California, based on data from the 1990 census.',
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
-        link: "https://github.com/wangbertha/2DGame",
+        link: "https://github.com/wangbertha/california-housing-price-predictor",
         alt: "GitHub logo",
       },
     ],
-    skillsHigh: ["Java"],
-    skillsMed: ["javax.swing", "java.awt", "java.io"],
+    skillsHigh: ["Python", "Flask"],
+    skillsMed: ["pandas", "numpy", "matplotlib", "seaborn", "skikit-learn"],
   },
   {
     image: new URL("../assets/project-electrify-chicago.png", import.meta.url).href,
@@ -39,6 +39,24 @@ const projects = [
     ],
     skillsHigh: ["HTML", "SCSS", "TypeScript", "Vue.js"],
     skillsMed: ["Netlify"],
+  },
+  {
+    image: new URL("../assets/project-2dgame.png", import.meta.url).href,
+    imgAlt:
+      "Screenshot of 2D game, where a player is pushing a box towards a hole",
+    title: "2D Game",
+    year: "2024 - 2025",
+    description:
+      'Puzzle game where the player must push a box into a target. Developed with Java',
+    links: [
+      {
+        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
+        link: "https://github.com/wangbertha/2DGame",
+        alt: "GitHub logo",
+      },
+    ],
+    skillsHigh: ["Java"],
+    skillsMed: ["javax.swing", "java.awt", "java.io"],
   },
   {
     image: new URL("../assets/project-convene-app.png", import.meta.url).href,
@@ -126,30 +144,6 @@ const projects = [
     ],
     skillsHigh: ["HTML", "SCSS", "React.js"],
     skillsMed: ["Netlify"],
-  },
-  {
-    image: new URL("../assets/project-portfolio-website.png", import.meta.url)
-      .href,
-    imgAlt:
-      "Screenshot of a portfolio website that displays the person's role and career summary",
-    title: "Portfolio Website",
-    year: 2024,
-    description:
-      "Developed this portfolio website with React.js. Designed with Figma.",
-    links: [
-      {
-        icon: new URL("../assets/github-mark.svg", import.meta.url).href,
-        link: "https://github.com/wangbertha/portfolio-website",
-        alt: "GitHub logo",
-      },
-      {
-        icon: new URL("../assets/figma-logo.svg", import.meta.url).href,
-        link: "https://www.figma.com/design/McXMjYuY17sXh4MO1dls7T/Portfolio-Website?node-id=0-1&t=CxbCRHQ8ysLcrZZB-1",
-        alt: "Figma logo",
-      },
-    ],
-    skillsHigh: ["TypeScript", "HTML", "CSS", "React.js", "Vite"],
-    skillsMed: ["Figma"],
   },
 ];
 

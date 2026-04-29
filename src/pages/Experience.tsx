@@ -7,21 +7,8 @@ const Experience = () => {
   return (
     <main className="page experience-page">
       <div className="experience-wrapper">
-        <h1>Relevant Experience</h1>
+        <h1>Experience</h1>
         {relevantExperiences.map((experience) => (
-          <PastExperienceCard key={experience.role} experience={experience} />
-        ))}
-      </div>
-      <hr></hr>
-      <div className="experience-wrapper">
-        <h2>Past Experience</h2>
-        <p>
-          Prior to starting my career in software engineering, I gained diverse
-          skills and experience in mechanical engineering and management.
-        </p>
-        <SkillsList proficiency="high" list={pastSkillsCompetencies} />
-        <SkillsList proficiency="medium" list={pastSkillsTools} />
-        {pastExperiences.map((experience) => (
           <PastExperienceCard key={experience.role} experience={experience} />
         ))}
       </div>

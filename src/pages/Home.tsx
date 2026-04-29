@@ -12,7 +12,7 @@ const Home = () => {
     <section className="page home-page">
       <header>
         <h1>
-          Software Engineer / <br /> Web Developer
+          Data Engineer / <br /> Analyst
         </h1>
         <h2>
           Curious and passionate about technology, focused on impact, always
@@ -20,33 +20,23 @@ const Home = () => {
         </h2>
       </header>
       <p>
-        Coming from a background in mechanical engineering and business, I bring
-        a diverse set of skills and experiences, including the product
-        development process, system design, version control, project management,
-        mentorship, creativity, and high attention to detail.
+        Coming from a background in mechanical engineering and business, I
+        always found myself gravitating towards data and digital technology. I
+        integrated it constantly into my work and spent my free time teaching
+        myself to build full-stack web applications to interact with data.
       </p>
       <p>
-        Over the past year, I dove into my passion for coding and technology. I
-        started my journey first through my interests in data analysis and
-        visualization, and I taught myself to build full-stack web applications
-        to interact with data. I recently sought formal instruction and
-        graduated from{" "}
-        <a
-          href="https://www.fullstackacademy.com/programs/coding-bootcamp"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Fullstack Academy's web development immersive program
-        </a>
-        . My work includes developing web apps, and I've had the opportunity to
-        work with nonprofits and contribute to open source projects.
+        Eventually, I transitioned into data full-time. I enjoy interacting with
+        data in different ways, from processing data and ensuring data accuracy
+        to analyzing data for insights. I've had the opportunity to work with
+        nonprofits and contribute to open source projects as well.
       </p>
       <div className="skills-list-wrapper">
         <h3>Languages:</h3>
         <SkillsList proficiency="high" list={skillsLanguages} />
-        <h3>Libraries & Tools:</h3>
+        <h3>Libraries:</h3>
         <SkillsList proficiency="medium" list={skillsLibrariesFrameworks} />
-        <h3>Tools & Platforms:</h3>
+        <h3>Platforms:</h3>
         <SkillsList proficiency="high" list={skillsToolsPlatforms} />
       </div>
       <SocialsList />
