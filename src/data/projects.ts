@@ -24,7 +24,7 @@ const projects = [
     title: "Electrify Chicago",
     year: "2024 - 2025",
     description:
-      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Executed 2+ frontend features in TypeScript, HTML, SCSS, and Vue.js, including tooltips, user experience edge-case improvements, and a “call-to-action” modal with copy-to-clipboard functionality',
+      'Open-source project under Chi Hack Night making Chicago building emissions and energy usage accessible to the public. Built data pipelines in Python (Pandas, APIs, geospatial tools) to extract, clean, and structure datasets of 3,000+ entities. Executed 2+ frontend features in TypeScript, HTML, SCSS, and Vue.js, including tooltips, user experience edge-case improvements, and a “call-to-action” modal with copy-to-clipboard functionality',
     links: [
       {
         icon: new URL("../assets/github-mark.svg", import.meta.url).href,
@@ -37,8 +37,8 @@ const projects = [
         alt: "Electrify Chicago logo",
       },
     ],
-    skillsHigh: ["HTML", "SCSS", "TypeScript", "Vue.js"],
-    skillsMed: ["Netlify"],
+    skillsHigh: ["Python", "HTML", "SCSS", "TypeScript", "Vue.js"],
+    skillsMed: ["Pandas", "Pytest", "Google Maps API", "Netlify"],
   },
   {
     image: new URL("../assets/project-2dgame.png", import.meta.url).href,
